@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Chiaki Nanami",
+      "ultimate": "Ultimate Gamer",
+      "status": "Dead",
+      "sprite": "./assets/image/chiaki.webp"
+    },
+    {
+      "id": 2,
+      "name": "Hajime Hinata",
+      "ultimate": "Ultimate ???",
+      "status": "Alive",
+      "sprite": "./assets/image/hajime.webp"
+    },
+    {
+      "id": 3,
+      "name": "Nagito Komaeda",
+      "ultimate": "Ultimate Lucky Student",
+      "status": "Alive",
+      "sprite": "./assets/image/nagito.webp"
+    },
+    {
+      "id": 4,
+      "name": "Kyoko Kirigiri",
+      "ultimate": "Ultimate ???",
+      "status": "Alive",
+      "sprite": "./assets/image/kyoko.webp"
+    },
+    {
+      "id": 5,
+      "name": "Chihiro Fujisaki",
+      "ultimate": "Ultimate Programmer",
+      "status": "Dead",
+      "sprite": "./assets/image/chihiro.webp"
+    },
+    {
+      "id": 6,
+      "name": "Monomi",
+      "ultimate": "Ultimate Housekeeper ",
+      "status": "Dead",
+      "sprite": "./assets/image/monomi.webp"
+    },
+    {
+      "id": 7,
+      "name": "Monokuma",
+      "ultimate": "Ultimate Despair",
+      "status": "Dead",
+      "sprite": "./assets/image/monokuma.webp"
+    },
+    {
+      "id": 8,
+      "name": "Makoto Naegi",
+      "ultimate": "Ultimate Hope",
+      "status": "Alive",
+      "sprite": "./assets/image/makoto.webp"
+    }
+  ]
