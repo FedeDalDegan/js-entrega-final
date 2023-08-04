@@ -22,7 +22,7 @@
     },
     {
       "id": 4,
-      "name": "Kyoko Kirigiri",
+      "name": "Kirigiri Kyoko",
       "ultimate": "Ultimate ???",
       "status": "Alive",
       "sprite": "./assets/image/kyoko.webp"
@@ -39,7 +39,7 @@
       "name": "Monomi",
       "ultimate": "Ultimate Housekeeper ",
       "status": "Dead",
-      "sprite": "./assets/image/monomi.webp"
+      "sprite": "./assets/image/usami.webp"
     },
     {
       "id": 7,
