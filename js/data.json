@@ -54,5 +54,145 @@
       "ultimate": "Ultimate Hope",
       "status": "Alive",
       "sprite": "./assets/image/makoto.webp"
+    },
+    {
+      "id": 9,
+      "name": "Aoi Asahina",
+      "ultimate": "Ultimate Swimming Pro",
+      "status": "Alive",
+      "sprite": "./assets/image/asahina.webp"
+    },
+    {
+      "id": 10,
+      "name": "Byakuya Togami",
+      "ultimate": "Ultimate Affluent Progeny",
+      "status": "Alive",
+      "sprite": "./assets/image/byakuya.webp"
+    },
+    {
+      "id": 11,
+      "name": "Ibuki Mioda",
+      "ultimate": "Ultimate Musician",
+      "status": "Alive",
+      "sprite": "./assets/image/ibuki.webp"
+    },
+    {
+      "id": 12,
+      "name": "Hiyoko Saionji",
+      "ultimate": "Ultimate Traditional Dancer",
+      "status": "Alive",
+      "sprite": "./assets/image/hiyoko.webp"
+    },
+    {
+      "id": 13,
+      "name": "Kazuichi Soda",
+      "ultimate": "Ultimate Mechanic",
+      "status": "Alive",
+      "sprite": "./assets/image/soda.png"
+    },
+    {
+      "id": 14,
+      "name": "Sayaka Maizono",
+      "ultimate": "Ultimate Pop Sensation",
+      "status": "Dead",
+      "sprite": "./assets/image/sayaka.webp"
+    },
+    {
+      "id": 15,
+      "name": "Sakura Ogami",
+      "ultimate": "Ultimate Martial Artist",
+      "status": "Dead",
+      "sprite": "./assets/image/sakura.webp"
+    },
+    {
+      "id": 16,
+      "name": "Kyosuke Munakata",
+      "ultimate": "Ultimate Council President",
+      "status": "Alive",
+      "sprite": "./assets/image/munakata.webp"
+    },
+    {
+      "id": 17,
+      "name": "Chisa Yukizome",
+      "ultimate": "Ultimate Housekeeper",
+      "status": "Dead",
+      "sprite": "./assets/image/chisa.webp"
+    },
+    {
+      "id": 18,
+      "name": "Junko Enoshima",
+      "ultimate": "Ultimate Fashionista",
+      "status": "Dead",
+      "sprite": "./assets/image/junko.webp"
+    },
+    {
+      "id": 19,
+      "name": "Mukuro Ikusaba",
+      "ultimate": "Ultimate Soldier",
+      "status": "Dead",
+      "sprite": "./assets/image/mukuro.webp"
+    },
+    {
+      "id": 20,
+      "name": "Mondo Owata",
+      "ultimate": "Ultimate Biker Gang Leader",
+      "status": "Dead",
+      "sprite": "./assets/image/mondo.webp"
+    },
+    {
+      "id": 21,
+      "name": "Genocide Jack",
+      "ultimate": "Ultimate Murderous Fiend",
+      "status": "Alive",
+      "sprite": "./assets/image/jill.webp"
+    },
+    {
+      "id": 22,
+      "name": "Toko Fukawa",
+      "ultimate": "Ultimate Writing Prodigy",
+      "status": "Alive",
+      "sprite": "./assets/image/toko.webp"
+    },
+    {
+      "id": 23,
+      "name": "???",
+      "ultimate": "Ultimate ???",
+      "status": "Alive",
+      "sprite": "./assets/image/imposter.webp"
+    },
+    {
+      "id": 24,
+      "name": "Peko Pekoyama",
+      "ultimate": "Ultimate Swordswoman",
+      "status": "Alive",
+      "sprite": "./assets/image/peko.webp"
+    },
+    {
+      "id": 25,
+      "name": "Mikan Tsumiki",
+      "ultimate": "Ultimate Nurse",
+      "status": "Alive",
+      "sprite": "./assets/image/mikan.webp"
+    },
+    {
+      "id": 26,
+      "name": "Gundham Tanaka",
+      "ultimate": "Ultimate Breeder",
+      "status": "Alive",
+      "sprite": "./assets/image/gundham.webp"
+    },
+    {
+      "id": 27,
+      "name": "Sonia Nevermind",
+      "ultimate": "Ultimate Princess",
+      "status": "Alive",
+      "sprite": "./assets/image/sonia.webp"
+    },
+    {
+      "id": 28,
+      "name": "Celestia Ludenberg",
+      "ultimate": "Ultimate Gambler",
+      "status": "Dead",
+      "sprite": "./assets/image/celestia.webp"
     }
   ]

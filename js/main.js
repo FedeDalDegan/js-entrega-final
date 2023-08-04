@@ -83,7 +83,6 @@ function searchCharacters(search) {
 
 // Uso de LIBRERIAS (FrameWork)
 // Toastify
-
 function showToast(){
     Toastify({
         text: "Searching...",
