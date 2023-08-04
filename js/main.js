@@ -85,17 +85,47 @@ function searchCharacters(search) {
 // Toastify
 function showToast(){
     Toastify({
-        text: "Searching...",
+        text: "Here's your result(s)",
         duration: 3000,
         gravity: "top",
         position: "right",
-        backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",
+        style: {
+          background: '#272829', // BG Color
+          color: "white", // TEXT Color
+        },
         className: "custom-toast", // Clase en CSS
     }).showToast();
 }
 
 document.querySelector(".toastifyButton").addEventListener("click", showToast);
 
+// Control de flujo
+function retults(search){
+  searchCharacters(search);
+
+  const resultsContainer = document.querySelector(".search-results");
+  resultsContainer.innerHTML = "";
+  // Caso de que no haya resultados
+  if (filteredCharacters.length === 0) {
+    const message = document.createElement("p");
+    message.textContent = "No se encontraron personajes."
+    resultsContainer.appendChild(message);
+  } else {
+    const aliveCharacters = filteredCharacters.filter(character => character.status === "Alive");
+    const deadCharacters = filteredCharacters.filter(character => character.status === "Dead");
+    // Caso de que haya resultados
+    const message = document.createElement("p");
+    if(aliveCharacters.length > deadCharacters.length){
+      message.textContent = "There's more alive characters than dead characters. Fow now..."
+    } else if (aliveCharacters.length < deadCharacters.length) {
+      message.textContent = "There's more dead characters than alive characters. Understandable."
+    } else {
+      message.textContent = "Destiny awaits...";
+    }
+    resultsContainer.appendChild(message);
+  }
+  createCards()
+}
 
 
   
