@@ -18,7 +18,7 @@ OBJETIVOS
 let characters; // Declaro variable para más facilidad
 let filteredCharacters; // Almacenaje
 
-fetch("../js/data.json")
+fetch("./js/data.json")
   .then(response => response.json())
   .then(data => {
     characters = data;
