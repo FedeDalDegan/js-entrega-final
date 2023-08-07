@@ -125,3 +125,40 @@ button:hover{
     margin-right: 20%;
     border-radius: 5px;
 }
+
+/* Footer */
+.footerLogo{
+    width: 250px;
+    margin-top: 20px;
+}
+
+.footer__flex--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 25px 25px 0px 0px;
+    padding-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+.projects-container{
+    margin-top: 35px;
+    width: 100%;
+    line-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #333;
+}
+
+h5{
+    margin-top: 25px;
+    color: #333;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
