@@ -85,3 +85,19 @@ function respuestaClick(){
     sessionStorage.setItem("userMsg", userMsgValue);
     sessionStorage.setItem("formMsg", formMsgValue);
 }
+
+function showToast2(){
+    Toastify({
+        text: "Form submitted ✔️",
+        duration: 3000,
+        gravity: "top",
+        position: "right",
+        style: {
+          background: '#008f39', // BG Color
+          color: "white", // TEXT Color
+        },
+        className: "custom-toast", // Clase en CSS
+    }).showToast();
+}
+
+document.querySelector("#buttonSend").addEventListener("click", showToast2)
