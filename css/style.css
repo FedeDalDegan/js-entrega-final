@@ -33,6 +33,9 @@ body{
     font-size: 20px;
     color: black;
     font-weight: 600;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .search-input button{
@@ -124,6 +127,48 @@ button:hover{
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 5px;
+}
+
+/* Form */
+.form{
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 350px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 25px;
+    color: rgb(212, 37, 81);
+    text-align: center;
+    line-height: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.form input{
+    width: 250px;
+}
+
+#buttonSend{
+    height: 45px;
+}
+
+#formMsg{
+    height: 65px;
+}
+
+::placeholder{
 }
 
 /* Footer */

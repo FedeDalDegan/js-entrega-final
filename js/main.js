@@ -24,7 +24,7 @@ fetch("./js/data.json")
     characters = data;
     filteredCharacters = data.slice(); // Filtro
     createCards(); // Llamar a la función que crea las cards después de obtener los datos del JSON
-    console.log(data); // Mostrar JSON en consola
+    console.log(data); // Mostrar DATA en consola
   })
   .catch(error => console.error(error));
 

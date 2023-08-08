@@ -60,4 +60,28 @@ function showToast(){
     }).showToast();
 }
 document.querySelector(".toastifyButton").addEventListener("click", showToast);
-  
+
+// Form 
+// Relaciono HTML
+const userMsg = document.querySelector("#userMsg");
+const formMsg = document.querySelector("#formMsg");
+const buttonSend = document.querySelector("#buttonSend");
+
+// Cargo valores (Si los hay)
+if (!userMsg.value) {
+    userMsg.value = sessionStorage.getItem("userMsg") || "";
+} if (!formMsg.value) {
+    formMsg.value = sessionStorage.getItem("formMsg") || "";
+}
+
+// Evento 
+buttonSend.addEventListener("click", respuestaClick);
+
+function respuestaClick(){
+    const userMsgValue = userMsg.value;
+    const formMsgValue = formMsg.value;
+
+    // Almacenaje de datos
+    sessionStorage.setItem("userMsg", userMsgValue);
+    sessionStorage.setItem("formMsg", formMsgValue);
+}
