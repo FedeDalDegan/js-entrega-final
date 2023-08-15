@@ -6,7 +6,7 @@ Professor: Nicolas Martini
 
 Mentor: Matias Agobian
 
-Note: To be known.
+Note: 8.
 
 ## Authors
 
